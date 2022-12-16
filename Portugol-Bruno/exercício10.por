@@ -3,21 +3,24 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro md, n = 1, tot, somat = 0
-		tot = 0
-		escreva("\n digite um numero: ")
-		leia(n)
-		
-		enquanto(n>0){
-			escreva("\n Digite um numero: ")
-			leia(n)}
-			
+		inteiro n=1, somat=0, md, tot=0
+
+		enquanto(n>0)
+		{
+			escreva ("\nDigite um número: ") 
+			leia(n)
+
 			se (n>0){
 			somat = somat + n
 			tot = tot + 1
+				
 			}
-			md = somat/tot
-			escreva("\n a média é: ")
+			
+		}
+		md = somat / tot
+		escreva ("\nA média será: " ,md)
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 310; 
+ * @POSICAO-CURSOR = 148; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
